@@ -126,7 +126,7 @@ function Cadastro() {
                             type="password"
                             id="senha"
                             name="senha"
-                            placeholder="Senha"
+                            placeholder="Senha (mínimo 8 caracteres)"
                             className="border-2 border-slate-700 rounded p-2"
                             value={usuario.senha}
                             onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
